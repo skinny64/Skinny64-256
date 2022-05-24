@@ -1,0 +1,8 @@
+`prob_clustering.cpp`: the code to evaluate the probability with clustering effect of the boomerang distinguisher for SKINNY-64-256. To compile, use the command `g++ prob_clustering.cpp -o prob`. To run, use the command `./prob`
+
+`testboom.cu`: the code to evaluate the probability of middle part of the boomerang distinguisher for SKINNY-64-256. To compile, use the command `make`. To run, use the command `./testboom`
+
+Platform:
+CUDA Runtime API (GeForce RTX 2080 Ti. maxThreadsPerBlock : 1024. warpSize : 32.)
+
+
